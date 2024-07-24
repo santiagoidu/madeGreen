@@ -31,9 +31,9 @@ export default props => {
                             setLag(event.target.value)
                         }} />
                 </label>
-                {/* /%20 */}
+
                 <div>
-                    <a href={`https://wa.me/553132703000?text=Ola%2C%20gosataria%20de%20saber%20o%20pre%C3%A7o%20de%20uma%20pe%C3%A7a%20de%20${lag}mm%20por%20${alt}mm%2C%20cerca%20de%20${m2}%20m%C2%B2`}>
+                    <a href={`https://wa.me/553132703000?text=Ola%2C%20gostaria%20de%20saber%20o%20pre%C3%A7o%20de%20uma%20pe%C3%A7a%20de%20${lag}mm%20X%20${alt}mm%2C%20cerca%20de%20${m2}%20m%C2%B2`}>
                         <button class="button" role="button" >Ver Preço</button>
                     </a>
                 </div>
